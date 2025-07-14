@@ -15,7 +15,7 @@ import smtplib
 import re
 import string
 import concurrent.futures
-from email.mime.text import MIMET
+from email.mime.text import MIMEText
 from phonenumbers import geocoder, carrier, timezone
 from getpass import getpass
 from flask import Flask, request, jsonify
